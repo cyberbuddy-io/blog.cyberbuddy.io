@@ -1,0 +1,574 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Montserrat",sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: #F2F2FF;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: #031634;
+  text-decoration: none;
+}
+
+hr {
+  width: 60%;
+  margin: auto;
+}
+
+/*Navbar*/
+
+nav {
+  background-color: white;
+  margin: auto;
+  height: 75px;
+  display: flex;
+}
+
+/*Nav Div 1 */
+
+nav div:nth-child(1) {
+  width: 40%;
+  margin-left: 4vw;
+  display: flex;
+  align-items: center;
+}
+
+nav div:nth-child(1) h2 {
+  position: absolute;
+  z-index: 1;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 78px;
+  color: #F0F0FF;
+  opacity: 0.85;
+}
+
+nav div:nth-child(1) span {
+  font-size: 36px;
+}
+
+nav div:nth-child(1) h1 {
+  font-size: 20px;
+  font-weight: 400;
+  z-index: 2;
+  margin-left: 22px;
+  margin-top: 25px;
+}
+
+/*Nav Div 2 */
+
+nav div:nth-child(2) {
+  width: 50%;
+  display: grid;
+  justify-content: right;
+  align-items: center;
+}
+
+nav div:nth-child(2) h1 {
+  margin-top: 5px;
+  font-size: 30px;
+  color: #031634;
+}
+
+nav div:nth-child(2) div {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+}
+
+nav button {
+  background-color: white;
+  border-radius: 10px;
+  width: 85px;
+  height: 27px;
+}
+
+nav div button h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+nav a:nth-child(1) button {
+  border: solid 2px #031634;
+}
+
+nav a:nth-child(1) button:hover {
+  border: solid 2px #031634;
+  background-color: #031634;
+  border: solid 2px #031634;
+}
+
+nav a:nth-child(2) button {
+  margin: 0 0px 0 10px;
+  background-color: #031634;
+  border: solid 2px #031634;
+}
+
+nav a h2 {
+  font-size: 16px;
+}
+
+nav a:nth-child(1):hover h2 {
+  color: white;
+  font-weight: 600;
+}
+
+nav a:nth-child(2) h2 {
+  color: white;
+  font-weight: 600;
+}
+
+/*Nav Div 3 */
+
+nav div:nth-child(3) {
+  width: 90px;
+  display: grid;
+  place-items: center;
+  margin-right: 4vw;
+}
+
+nav div:nth-child(3) img {
+  width: 80px;
+  height: 80px;
+}
+
+/*Header Content*/
+
+header div:nth-child(1) h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 79.4%;
+  text-align: right;
+  margin: auto;
+}
+
+header div:nth-child(1) h3:nth-child(1) {
+  color: #000000B2;
+  width: 70%;
+  margin-top: 40px;
+}
+
+header div:nth-child(1) div .author-name {
+  width: 55%;
+}
+
+header div:nth-child(1) div h3:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+
+  font-weight: 500;
+  color: #000000CC;
+
+  display: flex;
+  justify-content: flex-end;
+  place-items: center;
+}
+
+header div:nth-child(1) div .author-img {
+  width: 45%;
+}
+
+header div:nth-child(1) img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 15px;
+  display: flex;
+  place-items: center;
+}
+
+header div:nth-child(1) h1 {
+  font-weight: bold;
+  width: 60%;
+  margin: 13px auto;
+  font-size: 48px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/*Header Image*/
+
+.header-img {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px 0;
+}
+
+.header-img img {
+  width: 700px;
+}
+
+/*Main Content*/
+
+main {
+  display: flex;
+  margin-top: 60px;
+}
+
+aside {
+  width: 19%;
+  height: 30vh;
+  margin: 40px 0;
+  padding: 0 4%;
+  position: sticky;
+  top: 40px;
+}
+
+aside h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+aside div {
+  display: flex;
+}
+
+aside div a {
+  margin-right: 10px;
+}
+
+aside div img {
+  margin: 18px;
+  width: 35px;
+  height: 35px;
+}
+
+aside div img:nth-child(1) {
+  margin-left: 0;
+}
+
+/*Article Text*/
+
+main div:nth-child(2) {
+  width: 55%;
+  margin-left: 5px;
+}
+
+content h1 {
+  font-weight: 700;
+  font-size: 36px;
+  opacity: 0.9;
+  margin: 5px auto;
+}
+
+content p {
+  font-weight: 500;
+  font-size: 22px;
+  margin: 20px auto;
+  opacity: 0.8;
+}
+
+content ul {
+  margin: 20px 0 20px 30px;
+}
+
+content li {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 12px;
+  line-height: 130%;
+  opacity: 0.8;
+}
+
+/*Article Images*/
+
+main div figure {
+  width: 90%;
+  margin: auto;
+  height: auto;
+  margin-left: 0;
+}
+
+main content img {
+  margin: 20px auto 10px auto;
+  display: flex;
+}
+
+main div h4 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: #575757;
+}
+
+/*Copy Link Section*/
+
+section {
+  margin: 40px 0;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600px;
+  margin: 20px 0;
+}
+
+section div {
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+section div figure {
+  width: 45%;
+  background-color: white;
+  border-radius: 50px;
+}
+
+section div figure h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+  margin: 10px auto;
+
+  font-weight: 600;
+  font-size: 19px;
+  color: rgba(0, 0, 0,0.5);
+}
+
+section div button {
+  display: flex;
+  place-items: center;
+  margin-left: 30px;
+  padding-left: 10px;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+section div button img {
+  width: 40px;
+  border-radius: 80%;
+}
+
+/*More About Author Footer*/
+
+#more-author {
+  margin: 50px 0 40px 0;
+}
+
+#more-author h1 {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+#more-author div {
+  display: flex;
+  justify-content: center;
+}
+
+#more-author figure {
+  width: 22%;
+  margin: 5px 50px 0 0;
+  padding-bottom: 15px;
+  background-color: white;
+  border-radius: 20px 20px 60px 0;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.15);
+}
+
+#more-author figure:last-child {
+  margin-right: 0;
+}
+
+#more-author figure a:nth-child(1) img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+#more-author figure figcaption {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.tag {
+  padding: 0 12px;
+  margin: 0 8px;
+  border-radius: 35px;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+}
+
+.tag:first-child {
+  margin-left: 0;
+}
+
+.tag:last-child {
+  margin-right: 0;
+}
+
+.food {
+  background-color: #FEF44E;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+}
+
+.movies {
+  background-color: #CB1939;
+}
+
+.science {
+  background-color: #4AD7E0;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+}
+
+.technology {
+  background-color: #333366;
+}
+
+.travel {
+  background-color: #F245B3;
+}
+
+.business {
+  background-color: #142035;
+}
+
+#more-author figure p {
+  width: 90%;
+  text-align: center;
+  font-size: 24px;
+  margin: 15px auto;
+  color: black;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+#more-author figure hr {
+  border: 1px solid rgba(0, 0, 0, 0.52);
+  margin-top: 20px;
+}
+
+#more-author figure h4 {
+  margin-top: 2px;
+  color: #5A5A5A;
+  text-align: center;
+  width: auto;
+  font-size: 14px;
+}
+
+#more-author figure a:nth-child(5) img {
+  width: 15px;
+  height: 10px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+/*Newsletter*/
+
+#newsletter {
+  margin-top: 150px;
+  width: auto;
+  height: 350px;
+  background-image: url("Assets/Images/newsletter.png");
+  background-size: cover;
+  display: flex;
+}
+
+#newsletter section {
+  width: 70%;
+}
+
+#newsletter section h1 {
+  font-weight: 500;
+  font-size: 55px;
+  color: #373737;
+}
+
+#newsletter section figure {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  width: 50vw;
+  height: 70px;
+  margin: auto;
+  margin-top: 30px; 
+}
+
+#newsletter section figure input {
+  width: 80%;
+  height: 50%;
+  margin-left: auto;
+  border: none;
+  font-size: 20px;
+}
+
+#newsletter section figure input:focus {
+  outline: none;
+}
+
+#newsletter section figure input::placeholder { /*Chrome*/
+  font-weight: 500;
+  font-size: 22px;
+  color: #7B7B7B;
+}
+
+#newsletter section figure input::-ms-input-placeholder { /* Microsoft Edge */
+  font-weight: 500;
+  font-size: 22px;
+  color: #7B7B7B;
+}
+
+#newsletter section figure div {
+  width: 20%;
+  display: flex;
+  place-items: center;
+  background-color: #D6D6D6;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#newsletter section figure img {
+  width: 70%;
+  height: 50%;
+}
+
+#newsletter img:nth-child(2) {
+  margin: 35px 7vw 0 0;
+  width: 370px;
+  height: 90%;
+}
