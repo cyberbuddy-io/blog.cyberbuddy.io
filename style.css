@@ -276,25 +276,25 @@ main div:nth-child(2) {
   margin-left: 5px;
 }
 
-content h1 {
+main content h1 {
   font-weight: 700;
   font-size: 36px;
   opacity: 0.9;
   margin: 5px auto;
 }
 
-content p {
+main content p {
   font-weight: 500;
   font-size: 22px;
   margin: 20px auto;
   opacity: 0.8;
 }
 
-content ul {
+main content ul {
   margin: 20px 0 20px 30px;
 }
 
-content li {
+main content li {
   font-weight: 500;
   font-size: 20px;
   margin-top: 12px;
@@ -572,3 +572,151 @@ section div button img {
   width: 370px;
   height: 90%;
 }
+
+/*Main footer start*/
+
+#main {
+  width: auto;
+  height: 350px;
+  background-color: #031634;
+  z-index: 0;
+}
+
+#main figure:nth-child(1) {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(89.93deg, 
+            rgba(0, 0, 0, 0.6) -0.11%, 
+            rgba(0, 0, 0, 0) 73.08%);
+  z-index: 1;
+  mix-blend-mode: overlay;
+}
+
+#main a {
+  color: white;
+}
+
+#main figure:nth-child(2) {
+  height: 320px;
+  display: flex;
+}
+
+#main figure:nth-child(2) div {
+  height: 100%;
+}
+
+#main figure:nth-child(2) div:nth-child(1) {
+  width: 50%;
+  display: grid;
+}
+
+#main .branding-foo {
+  display: flex;
+}
+
+#main figure:nth-child(2) div:nth-child(1) .branding-foo {
+  margin: 25px 10px 65px 45px;
+}
+
+#main figure:nth-child(2) div:nth-child(1) .branding-foo img {
+  width: 80px;
+  height: 80px;
+}
+
+#main figure:nth-child(2) div:nth-child(1) .branding-foo h1 {
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06);
+  margin-left: 10px;
+}
+
+#main figure:nth-child(2) div:nth-child(1) .branding-foo h3 {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.175em;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06);
+  margin-left: 15px;
+} 
+
+#main figure:nth-child(2) .social-foo {
+  width: 100%;
+  height: 150px;
+  margin: 20px 20px 20px 140px;
+}
+
+#main figure:nth-child(2) .social-foo h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06)
+}
+
+#main figure:nth-class(2) .social-foo span{
+  display: flex;
+}
+
+#main figure:nth-child(2) div:nth-child(2) {
+  display: grid;
+  width: 25%;
+}
+
+#main figure:nth-child(2) .heading {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06);
+  height: 70px;
+  margin-top: 25px;
+}
+
+#main figure:nth-child(2) div:nth-child(2) ul {
+  width: auto;
+  height: 250px;
+}
+
+#main figure:nth-child(2) div:nth-child(2) ul li {
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06);
+  margin-bottom: 14px;
+}
+
+#main figure:nth-child(2) div:nth-child(2) ul li img {
+  margin-right: 10px;
+}
+
+#main figure:nth-child(2) div:nth-child(3) {
+  width: 20%;
+  display: grid;
+  margin-left: auto;
+}
+
+#main figure:nth-child(2) div:nth-child(3) ul {
+  width: auto;
+  height: 250px;
+}
+
+#main figure:nth-child(2) div:nth-child(3) ul li {
+  font-weight: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06);
+  list-style-type: none;
+  margin-bottom: 14px;
+}
+
+#main p {
+  height: 30px;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
